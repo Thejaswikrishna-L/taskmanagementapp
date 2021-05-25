@@ -6,7 +6,7 @@ Created a Sping boot backend with Controller, Repository, Service and todo class
 
 ## Frontend
 
-Created a React frontend and connected it with backend and MongoDB using RESTful APIs.
-Added backend routes and frontend UI for adio button to confirm task complete.
-Added ability to add, delete and update the tasks.
-Designed the frontend UI with CSS.
+- Created a React frontend and connected it with backend and MongoDB using RESTful APIs.
+- Added backend routes and frontend UI for radio button to confirm task complete.
+- Added ability to add, delete and update the tasks.
+- Designed the frontend UI with CSS.
