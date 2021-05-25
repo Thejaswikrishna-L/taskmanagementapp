@@ -2,7 +2,7 @@
 
 ## Backend
 
-Created a Sping boot backend with Controller, Repository, Service and todo class and then connected with MongoDB.
+Created a Spring Boot backend with Controller, Repository, Service and todo class and then connected with MongoDB.
 
 ## Frontend
 
