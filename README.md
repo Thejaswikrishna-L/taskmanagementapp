@@ -2,7 +2,7 @@
 
 ## Backend
 
-Created a Sping boot backend with Controller, Repository, Service and todo class and then connected ith with MongoDB.
+Created a Sping boot backend with Controller, Repository, Service and todo class and then connected with MongoDB.
 
 ## Frontend
 
