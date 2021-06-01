@@ -22,8 +22,8 @@ public class TodoRepository{
 			TodoItem item1 = new TodoItem();
 			item1.setId(idCounter++);
 			item1.setIsDone(false);
-			item1.setTask("Task 1");
-			
+			item1.setTask("Task 0");
+			item1.setTaskstatus("CREATED");
 			todoItems.add(item1);
 		}
 		return todoItems;
@@ -32,6 +32,7 @@ public class TodoRepository{
 	public TodoItem save (TodoItem todoItem) {
 		todoItem.setId(idCounter++);
 		todoItems.add(todoItem);
+	
 		return todoItem;
 	}
 

@@ -48,7 +48,7 @@ function App() {
     <div className="App">
       <header>
         <form id="to-do-form">
-        <button onClick={addNewTodoItem}> Add New Task</button>
+        <button onClick={addNewTodoItem}> + Add a task </button>
         </form>
       </header>
           <div>

@@ -23,7 +23,7 @@ const TodoItem = (props) => {
 
     function updateIsDone() {
         setDirty(true);
-        setTodoItem({ ...todoItem, isDone: !todoItem.isDone});
+        setTodoItem({ ...todoItem, isDone: !todoItem.isDone, taskstatus: "COMPLETED"});
     }   
 
     function updateTask(e) {
@@ -41,7 +41,7 @@ const TodoItem = (props) => {
             emitDeleteTodoItem(todoItem)
         })
     }
-   
+     
     return (
         <div>
         <form id="list">
@@ -51,6 +51,7 @@ const TodoItem = (props) => {
         }
          
         <span style={{marginleft :'1rem', cursor: "pointer"}} onClick={deleteTodoItem}>🗑️</span>
+      
         </form>
         </div>
     );

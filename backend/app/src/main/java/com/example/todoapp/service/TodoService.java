@@ -27,6 +27,7 @@ public class TodoService {
 			TodoItem item = todoOpt.get();
 			item.setIsDone(todoItem.getIsDone());
 			item.setTask(todoItem.getTask());
+			item.setTaskstatus(todoItem.getTaskstatus());
 			return item;
 		}
 		return null;
@@ -37,9 +38,10 @@ public class TodoService {
 		todoItem.setIsDone(false);
 		todoItem = todoRepo.save(todoItem);
 		todoItem.setTask("Task " + todoItem.getId());
+		todoItem.setTaskstatus("CREATED");
 		return todoItem;
 	}
-
+	
 	public void deleteTodoItem(Integer id) {
 		todoRepo.delete(id);
 		// TODO Auto-generated method stub
